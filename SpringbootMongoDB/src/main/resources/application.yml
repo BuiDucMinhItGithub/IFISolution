@@ -1,0 +1,12 @@
+server:
+    port: 8083
+
+
+keycloak:
+  auth-server-url: http://localhost:9090/auth
+  realm: Keycloak-Timesheet
+  resource: SpringbootMongoDB
+  public-client: true
+  bearer-only: true
+
+
